@@ -16,7 +16,7 @@ h2 {
   font-family: Verdana;
   font-size: 3rem;
   font-weight: bold;
-  padding: 2rem 0;
+
 }
 
 h3 {
@@ -171,6 +171,7 @@ header {
 
 .large-info img {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .large-info h2{
@@ -179,7 +180,7 @@ header {
 
 .large-info p {
   font-size: 1.5rem;
-  padding: 4rem 0;
+  padding-top: 4rem;
 }
 
 
@@ -281,6 +282,7 @@ header {
 /* Thesis */
 .large-info video {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 
@@ -425,7 +427,7 @@ footer {
     /* Classes */
     .classes {
       max-width: 100%;
-      margin: auto .2rem;
+      margin: 0 .2rem;
     }
 
     .class-list {
