@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Colmar Academy</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato&display=swap" rel="stylesheet">
@@ -12,21 +13,21 @@
 
 <!--- Navigation Bar --->
     <header>
-      <div class="nav-bar">
-        <div class="nav-logo">
-          <img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo">
-          <img class="mobile-banner" src="./resources/images/ic-on-Campus.svg" alt="Desk Icon">
-          <img class="mobile-banner" src="./resources/images/ic-online.svg" alt="Computer Icon">
-          <img class="mobile-banner" src="./resources/images/ic-login.svg" alt="Person Icon">
+      <div class="nav-bar" role="link">
+        <div class="nav-logo" role="presentation">
+          <a href="#"><img src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo"></a>
+          <a href="#"><img class="mobile-banner" src="./resources/images/ic-on-Campus.svg" alt="Desk Icon"></a>
+          <a href="#"><img class="mobile-banner" src="./resources/images/ic-online.svg" alt="Computer Icon"></a>
+          <a href="#"><img class="mobile-banner" src="./resources/images/ic-login.svg" alt="Person Icon"></a>
           <span class="school-name">COLMAR</span>
           <span class="school-type">ACADEMY</span>
         </div>
         <nav>
-          <ul>
-            <span>On campus</span>
-            <span>Online</span>
-            <span>For companies</span>
-            <span>Sign in</span>
+          <ul role="presentation">
+            <span><a href="#">On campus</a></span>
+            <span><a href="#">Online</a></span>
+            <span><a href="#">For companies</a></span>
+            <span><a href="#">Sign in</a></span>
           </ul>
         </nav>
       </div>
@@ -35,13 +36,13 @@
 
 
 <!--- Banner --->
-    <div class="banner">
+    <div class="banner" role="banner">
       <div class="banner-content">
         <img src="./resources/images/banner.jpg" alt="Students Studying">
         <div class="banner-text">
           <h1>Learn something new everyday</h1>
           <h3 class="large-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <span class="green">Start here</span>
+          <span class="green" role="link"><a href="#">Start here</a></span>
         </div>
       </div>
     </div>
@@ -51,7 +52,7 @@
     <!--- School Information --->
       <div class="school">
         <div class="school-info events">
-          <div class="large-info">
+          <div class="large-info" role="contentinfo">
             <div class="info-image">
               <img src="./resources/images/information-main.jpg" alt="Student Reading">
             </div>
@@ -59,7 +60,7 @@
             <span class="reg-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec conswquat neeque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficutur dolor consequat, tristique ligula"</span>
             <p>Emanuel, Sr Strategiest at Hiring.com</p>
           </div>
-          <div class="small-info">
+          <div class="small-info" role="contentinfo">
             <div class="info-block orange">
               <img img class="desktop-image" src="./resources/images/information-orientation.jpg" alt="Overhead Picture of Students">
               <img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg" alt="Overhead Picture of Students">
@@ -98,7 +99,7 @@
       <div class="classes">
         <h2 id="title">Start Learning</h2>
 
-        <div class="class-list">
+        <div class="class-list" role="list">
 
           <div class="course orange">
             <div class="images">
@@ -172,7 +173,7 @@
       <!--- Thesis --->
       <div class="school">
         <h2 id="title">Thesis Exhibit</h2>
-        <div class="school-info thesis">
+        <div class="school-info thesis" role="contentinfo">
           <div class="large-info">
             <video controls>
               <source src="./resources/videos/thesis.mp4" type="video/mp4">
@@ -180,7 +181,7 @@
             <h2>Reimagine urban</h2>
             <span class="reg-text">"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec conswquat neeque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficutur dolor consequat, tristique ligula"</span>
           </div>
-          <div class="small-info">
+          <div class="small-info" role="contentinfo">
             <div class="info-block orange">
               <img src="./resources/images/thesis-fisma.jpg" alt="Workspace Picture">
               <div class="info-text">
@@ -204,11 +205,17 @@
       <footer>
         <div class="footer-content">
           <p id="footer-p">&copy; 2016 Colmar Academy. All rights reserved</p>
+          <div class="social-media" role="link">
+            <span>Share on social media: </span>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+          </div>
           <div class="footer-nav">
             <nav>
-              <ul>
-                <span>Terms</span>
-                <span>Privacy</span>
+              <ul role="link">
+                <span><a href="#">Terms</a></span>
+                <span><a href="#">Privacy</a></span>
               </ul>
             </nav>
           </div>
